@@ -58,7 +58,7 @@ google-ai-trendspotting/
 - **Neeju Singh** — [GitHub](https://github.com/NEEJUSINGH)
 - **Namyuktha Prakash** — [GitHub](https://github.com/)
 - **Aadhi Sivakumar** — [GitHub](https://github.com/aadhi-sivakumar)
-- **Fatima Atif** — [GitHub](https://github.com/)
+- **Fatima Atif** — [GitHub](https://github.com/fatimaagit)
 - **Angela Martinez** — [GitHub](https://github.com/)
 - **Vidula Alla** — [GitHub](https://github.com/vidulaalla26)
 
