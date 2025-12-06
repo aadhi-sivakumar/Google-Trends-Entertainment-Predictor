@@ -6,7 +6,7 @@
 
 | Name             | University | GitHub | Contribution                                                             |
 |------------------|------------|---------------|--------------------------------------------------------------------------|
-| Vidula Alla      | UW-Madison | [Vidula GitHub](https://github.com/vidulaalla26) | Data exploration, visualization, overall project coordination|
+| Vidula Alla      | UW-Madison | [Vidula GitHub](https://github.com/vidulaalla26) | Data Exploration, Exploratory Data Analysis (EDA), Visualizations, Model Training/Evaluation/Selection, Feature Engineering, Technical Documentation, Project Manager|
 | Fatima Atif      | UT San Antonio| [Fatima GitHub](https://github.com/fatimaagit)      | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Angela Martinez  | UT El Paso | [Angela GitHub](https://github.com/) | Data preprocessing, feature engineering, data validation                 |
 | Namyuktha Prakash| UT Dallas  | [Namyuktha GitHub](https://github.com/namyuktha-prakash)| Model selection, hyperparameter tuning, model training and optimization  |
