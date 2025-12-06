@@ -180,17 +180,40 @@ Our leakage-safe feature generation ensures predictions use only historical data
 
 ## 🚀 **Next Steps**
 
-**You might consider addressing the following (as applicable):**
+### Limitations
+- **Loading in PyTrends data without 429 rate limit error**
+  - API rate limiting was a constant challenge requiring exponential backoff strategies
+- **Preparing our data for modeling and evaluation**
+  - Ensuring that the data was cleaned properly & handling missing values
+  - Extensive preprocessing required to maintain data quality
+- **Deciding whether to split our data using test train split in scikit-learn or do a time-based split**
+  - Tried test train split → bad evaluation metric scores
+  - Time-based split was necessary to prevent data leakage and simulate real-world deployment
 
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+### Future Enhancements
 
----
+**Data Expansion**
+- Train on Global Data
+  - Reach a wider range of users
+  - Understand regional differences in trend patterns
+- Add more temporal features or external data sources (social media, box office data)
+  - Incorporate Twitter/X sentiment analysis
+  - Integrate actual box office performance data
+  - Include streaming platform viewership metrics
+- Automate data pipeline with scheduled PyTrends fetches
+  - Implement daily/weekly automated data collection
+  - Build data versioning system for reproducibility
 
-## 📄 **References** (Optional but encouraged)
+**Prediction Enhancements**
+- Move from binary classification ("emerging" vs "stable") to multi-class or continuous trend forecasting
+  - Add "declining" and "viral" categories
+  - Predict magnitude of trend growth, not just direction
+  - Forecast trend trajectory over time horizons (7-day, 30-day, 90-day)
 
-Cite relevant papers, articles, or resources that supported your project.
+**Dashboard Upgrades**
+- Add interactive alerting system for new emerging trends
+  - Email/SMS notifications when trends cross emergence threshold
+  - Customizable alert criteria based on user preferences
 
 ---
 
