@@ -10,7 +10,7 @@
 | Fatima Atif      | UT San Antonio| [Fatima GitHub](https://github.com/fatimaagit)      | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Angela Martinez  | UT El Paso | [Angela GitHub](https://github.com/) | Data preprocessing, feature engineering, data validation                 |
 | Namyuktha Prakash| UT Dallas  | [Namyuktha GitHub](https://github.com/namyuktha-prakash)| Model selection, hyperparameter tuning, model training and optimization  |
-| Neeju Singh      | Metropolitan State | [ Neeju GitHub](https://github.com/NEEJUSINGH)    | Model evaluation, performance analysis, results interpretation           |
+| Neeju Singh      | Metropolitan State | [ Neeju GitHub](https://github.com/NEEJUSINGH)    | Live prediction testing, Model performance evaluation, Results interpretation |
 | Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Data Preprocessing,  Exploratory Data Analysis (EDA), Streamlit Website Development |
 | Alison Zou       | Vanderbilt | [Alison Github](https://github.com/azzou02)  | Model evaluation, performance analysis, results interpretation           |
 
