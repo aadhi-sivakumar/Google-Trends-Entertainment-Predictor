@@ -1,4 +1,4 @@
-# Google Trends Entertainment Predictor
+# Google Trends Entertainment Predictor 📈 
 ### AI-Powered Movie Trend Spotting System
 ---
 
@@ -11,7 +11,7 @@
 | Angela Martinez  | UT El Paso | [Angela GitHub](https://github.com/) | Data preprocessing, feature engineering, data validation                 |
 | Namyuktha Prakash| UT Dallas  | [Namyuktha GitHub](https://github.com/namyuktha-prakash)| Model selection, hyperparameter tuning, model training and optimization  |
 | Neeju Singh      | Metropolitan State | [ Neeju GitHub](https://github.com/NEEJUSINGH)    | Model evaluation, performance analysis, results interpretation           |
-| Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Data Preprocessing,  Exploratory Data Analysis (EDA), Streamlit Website           |
+| Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Data Preprocessing,  Exploratory Data Analysis (EDA), Streamlit Website Development |
 | Alison Zou       | Vanderbilt | [Alison Github](https://github.com/azzou02)  | Model evaluation, performance analysis, results interpretation           |
 
 ### **AI Studio Coach:** Haziel Ayala  
@@ -119,11 +119,8 @@ streamlit run streamlit_app.py
    - If not, navigate to the URL shown in the terminal (typically `http://localhost:8501`)
 
 ---
----
 
 ## 🏗️ **Project Overview**
-
-This project was developed as part of the **Break Through Tech AI Program** in collaboration with **Google**. Our team was challenged to leverage Google's vast data ecosystem to create a practical machine learning solution.
 
 ### Business Problem
 Entertainment studios face critical decisions about:
@@ -229,25 +226,20 @@ Our leakage-safe feature generation ensures predictions use only historical data
 - Pre-configured optimal parameters for each model
 - Focused on maximizing F1 score (balanced precision/recall)
 
-### Why Multiple Models?
-- Compare tree-based ensembles vs. linear baselines
-- Time-series classification benefits from nonlinear pattern detection
-- Ensemble approaches can be explored for further improvement
-
 ---
 
 ## 📈 **Results & Key Findings**
 
 ### Model Performance Comparison
 
-| Model                    | Accuracy | F1 Score | Training Time |
-|--------------------------|----------|----------|---------------|
-| **XGBoost** ⭐           | **0.864** | **0.456** | Fast          |
-| Gradient Boosting        | 0.855    | 0.441    | Medium        |
-| Ensemble (XGB+LGBM)      | 0.852    | 0.440    | Medium        |
-| LightGBM                 | 0.848    | 0.432    | Very Fast     |
-| Random Forest            | 0.838    | 0.401    | Slow          |
-| Logistic Regression      | 0.467    | 0.216    | Very Fast     |
+| Model                    | Accuracy | F1 Score | 
+|--------------------------|----------|----------|
+| **XGBoost** ⭐           | **0.864** | **0.456** |
+| Gradient Boosting        | 0.855    | 0.441    |
+| Ensemble (XGB+LGBM)      | 0.852    | 0.440    |
+| LightGBM                 | 0.848    | 0.432    | 
+| Random Forest            | 0.838    | 0.401    | 
+| Logistic Regression      | 0.467    | 0.216    | 
 
 ### XGBoost Confusion Matrix
 - **True Positives:** 1239 (Correctly predicted emerging trends)
