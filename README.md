@@ -11,7 +11,7 @@
 | Angela Martinez  | UT El Paso | [Angela GitHub](https://github.com/) | Data preprocessing, feature engineering, data validation                 |
 | Namyuktha Prakash| UT Dallas  | [Namyuktha GitHub](https://github.com/namyuktha-prakash)| Model selection, hyperparameter tuning, model training and optimization  |
 | Neeju Singh      | Metropolitan State | [ Neeju GitHub](https://github.com/NEEJUSINGH)    | Live prediction testing, Model performance evaluation, Results interpretation |
-| Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Data Preprocessing,  Exploratory Data Analysis (EDA), Streamlit Website Development |
+| Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Data Collection, Data Preprocessing,  Exploratory Data Analysis (EDA), Streamlit Website Development |
 | Alison Zou       | Vanderbilt | [Alison Github](https://github.com/azzou02)  | Model evaluation, performance analysis, results interpretation           |
 
 ### **AI Studio Coach:** Haziel Ayala  
@@ -97,11 +97,12 @@ To launch the interactive web application:
 
 1. **Clone the repository**
 ```bash
-git clone
+git clone https://github.com/NEEJUSINGH/Google-Trends-Entertainment-Predictor.git
 ```
 
 2. **Install dependencies**
 ```bash
+cd Google-Trends-Entertainment-Predictor
 pip install -r requirements.txt
 ```
 
@@ -175,8 +176,13 @@ We built an AI system that:
 
 ### Visualizations
 - **Time Series Plots:** Google Trends over 5 years for sample keywords
+<img src="https://github.com/NEEJUSINGH/Google-Trends-Entertainment-Predictor/blob/62f2b3368263c996a9e22df171062e204a339b64/Time%20Series%20Plot.png" width="600">
+
 - **Correlation Heatmap:** Relationships between different movie categories
+<img src="https://github.com/NEEJUSINGH/Google-Trends-Entertainment-Predictor/blob/62f2b3368263c996a9e22df171062e204a339b64/Correlation%20Heatmap.png" width="600">
+
 - **Feature Distribution:** Statistical properties of engineered features
+<img src="https://github.com/NEEJUSINGH/Google-Trends-Entertainment-Predictor/blob/62f2b3368263c996a9e22df171062e204a339b64/Feature%20Comparison.png" width="600">
 
 ---
 
@@ -241,11 +247,15 @@ Our leakage-safe feature generation ensures predictions use only historical data
 | Random Forest            | 0.838    | 0.401    | 
 | Logistic Regression      | 0.467    | 0.216    | 
 
+
+<img src="https://github.com/NEEJUSINGH/Google-Trends-Entertainment-Predictor/blob/62f2b3368263c996a9e22df171062e204a339b64/Model%20Comparison.png" width="700">
+
 ### XGBoost Confusion Matrix
-- **True Positives:** 1239 (Correctly predicted emerging trends)
-- **True Negatives:** 156 (Correctly predicted stable trends)
-- **False Positives:** 52 (Predicted emerging, but was stable)
-- **False Negatives:** 87 (Missed emerging trend - worst case!)
+- **True Positives:** Correctly predicted emerging trends
+- **True Negatives:** Correctly predicted stable trends
+- **False Positives:** Predicted emerging, but was stable
+- **False Negatives:** Missed emerging trend - worst case!
+<img src="https://github.com/NEEJUSINGH/Google-Trends-Entertainment-Predictor/blob/62f2b3368263c996a9e22df171062e204a339b64/Confusion%20Matrices.png" width="600">
 
 ---
 
