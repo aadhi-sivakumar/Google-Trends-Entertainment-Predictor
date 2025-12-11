@@ -144,6 +144,35 @@ We built an AI system that:
 
 ---
 
+## 📁 **Repository Structure**
+```
+Google-Trends-Entertainment-Predictor/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+│
+├── 📓 Notebooks
+│   ├── Google_Trends_Movie_Predictor__Final.ipynb   # Full pipeline notebook
+│   ├── build_labeled_trends.ipynb                    # Data labeling notebook
+│   └── live_prediction_model.ipynb                   # Quick start model training
+│
+├── 📊 Data
+│   └── labeled_trends.csv                            # Pre-processed labeled dataset
+│
+├── 🖼️ Visualizations
+│   ├── Confusion Matrices.png
+│   ├── Correlation Heatmap.png
+│   ├── Feature Comparison.png
+│   ├── Model Comparison.png
+│   └── Time Series Plot.png
+│
+└── 🌐 Web App
+    └── streamlit_app.py                              # Interactive dashboard
+```
+
+---
+
 ## 📊 **Data Exploration**
 
 ### Dataset Overview
